@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
+  margin: 0;
+}
+div {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #ddd;
+  color: white;
+  height: 150px;
+  padding: 200px;
+  overflow: auto;
+}
+p {
+  font-size: 25px;
+  line-height: 2;
+}
+
+::-webkit-scrollbar {
+  width: 50px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f6f6f6;
+  box-shadow: 0 0 10px #ddd inset;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(205 92 92 /50%);
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: indianred;
+}
+::-webkit-scrollbar-corner {
+  background-color: palevioletred;
+}
